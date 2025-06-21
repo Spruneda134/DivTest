@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -113,6 +113,7 @@ export default function Home() {
 
       {/* Fixed bg-black-500 to bg-black */}
       <div className="bg-black h-[100px]"> {/* CHANGED: fixed bg color */}
+        <Link href="/carousel">Carousel Page</Link>
       </div>
 
       <div className="bg-white">
